@@ -1,0 +1,135 @@
+/*Estilos para dispositivos*/
+@media screen and (max-width:831px){
+
+    .contenedor{
+
+        width: 100%;
+    }
+
+    nav{
+
+        width: 100%;
+        height: 280px;
+        background-color: rgb(134, 171, 240);
+    }
+    nav ul {
+    padding-top: 10px;
+    display: inline;
+
+    }
+
+    nav ul li {
+
+        list-style-type: none;
+        display: inline-block;
+        transition: 0.8s all;
+
+    }
+
+    .secproductos {
+        padding: 0 10px;
+        overflow: hidden; /* para evitar el desbordamiento y se salga el texto*/
+    }
+
+   .fp-video {
+        float: right;
+        width: 53%;
+        padding: 1em;
+
+   }
+
+
+   .ft-art {
+         width: 38%;
+         font-size: 0.9em;
+         margin: 0;
+         padding: 10px;       
+
+   }
+
+   .ft-art h1 {
+       display: 100%;
+       width: 100%;
+       text-align: center;
+   }
+   
+    .artfigure, .art-cont {
+        display: initial;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+        
+  }
+   
+  
+
+
+
+}
+
+  /* Estilos para Tablet - Smartphone - portatiles*/
+
+    @media all and (min-width: 500px) and (max-width:1023px){
+
+    nav{
+        width: 100%;
+        height: 280px;
+        background-color: rgb(134, 171, 240);  
+
+        }
+  
+        nav ul li {
+
+            list-style-type: none;
+            display: inline-block;
+                
+        }
+    
+        .secproductos {
+            padding: 0 10px;
+            overflow: hidden;
+        }
+    
+       .fp-video {
+          
+            float:right;
+            width: 53%;
+            padding: 1em;
+    
+       }
+    
+    
+       .ft-art{
+             width: 38%;
+             font-size: 0.9em;
+             margin: 0;
+             padding: 10px;       
+    
+       }
+    
+       .ft-art h1 {
+          font-size: 2em;
+
+       }       
+                    
+      }
+
+   /* Estilos para Tablet - Smartphone - portatiles*/
+
+   @media all and (min-width: 1024px) and (max-width:1385px){
+    .artfigure{
+
+        width: 500px;
+
+    }
+
+    .art-cont {
+
+        width: 700px;
+    }
+
+   }
+
+
+
+   
