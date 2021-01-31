@@ -1,8 +1,8 @@
-# Venta de Computadores
+## Venta de Computadores
 
 Proyecto en el cual se muestra la informacion de partes y accesorios de computadores **Venta de computadores**.
 
-##Tecnologias 
+## Tecnologias 
 
 * HTML
 * CSS
