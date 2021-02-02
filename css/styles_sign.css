@@ -1,0 +1,47 @@
+body {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300px;
+    /*ancho  de la pagina*/
+    max-width: 360px; 
+    margin: 8rem auto;
+    background-image: url(../imagenes/fondosign.jpg);   
+    background-size: 100% 100%;
+    
+    
+    /* como las manecillas del reloj mas simple define en una sola  linea
+    margin: 0 auto 0 auto; */ 
+
+    /* linea por linea
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: 0;
+    margin-bottom: auto;*/
+    
+    }
+
+.form {
+   background-color: burlywood;
+   padding: 4em;
+
+}
+
+
+.img-logo {
+
+    max-width: 100%;
+    border-radius: 2em;
+    padding-bottom: 1em;
+    border-radius:  2em;
+    margin-left: 4em;    
+
+}
+
+.btn {
+    margin-left: 2em;
+}
+
+.btn:hover{
+    background-color: #1fbea4;       
+   
+}
