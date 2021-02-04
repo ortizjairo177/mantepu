@@ -40,9 +40,10 @@ body {
         padding: 5px 20px;
     }
 
-    nav ul li:hover {
 
-        background-color: #fff;
+    nav ul li:hover  {
+
+        background-color: rgb(223, 163, 163);
 
     }
 
@@ -101,15 +102,17 @@ body {
 
    .fp-video{
        width: 50%;
-      /* padding: 2em; /* cada em son 14 px como hay 2em son 28Px*/
+      /* padding: 2em;  cada em son 14 px como hay 2em son 28Px*/
       padding: 28px;
          }
 
-    .ft-art{
-        width: 30%;
-        padding: 2em;
-        vertical-align: top;
-            }
+   .ft-art{
+       width: 30%;
+       padding: 2em;
+       vertical-align: top;
+                }
+
+    
     article {
         padding: 30px;
         background-color: rgba(134, 240, 148, 0.54);
@@ -152,11 +155,12 @@ body {
 
 .boton {
   padding: 5px;
+  
    
 }
 .boton-container:hover{
     background-color: #1fbea4;       
-    margin: 15px 30px 0px 30px;
+    margin: 15px 90px 0px 90px;
 }
 
  footer{
@@ -183,17 +187,131 @@ padding: 20px;
 
 }
 
-/** estilos de la pag. contactenos **/
+/* estilos de la pag. contactenos */
 
 
 .art-contact {
     max-width: 400px;
-     vertical-align: top;
-     margin: 0 auto;
+    vertical-align: top;
+    margin: 0 auto;
      
  }
 
+ .boton-art {
+    text-align: center;
+     margin: 0 auto;  /*alinea el texto en contenedor centro*/    
+
+}
+
+/* estilos para informacion de productos */
+.boton-contain {
+
+    text-align: center;
+     margin: 0 auto;
+     padding: 5px; 
+     background-color: rgb(171, 173, 39);
+     width: 155px; 
+      
+
+}
+
+.boton-contain:hover a{
+    background-color: #1fbea4;       
+    margin: 0 auto;
+    color:#fff; 
+    padding: 8px;
+   
+       
+} 
 
 
+/* Quita las linea subrrada de los hipervinculos*/
+A {
 
+    text-decoration: none;
+}
+
+/* estilos para informacion de misproductos */
+.boton-containmisp {
+
+     text-align:center;
+     margin-left: auto;
+     padding: 5px; 
+     background-color: rgb(171, 173, 39);
+     width: 155px; 
+     border-radius: 60px;      
+
+}
+
+.boton-containmisp:hover a{
+      
+    margin: 0 auto;
+    color:#fff; 
+    padding: 8px;
+   
+       
+} 
  
+.secmisproductos {                
+    
+    padding-top: 2rem;
+    width: 900px;
+    margin: 0 auto;
+     
+
+}
+
+
+/* Estilos para la pag de misproductos*/
+
+.tabla_colums {
+  
+    width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+    
+}
+
+
+/* con flex dce prueba
+.containertab {
+
+     margin: auto;
+    display: flex;
+  
+    flex-wrap: nowrap;
+    justify-content: space-between;    
+    
+}
+*/
+.item {
+
+    background: #00b285;
+    width: 23.5%;
+    height: 100px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.subitem {
+
+    background: #360652;    
+    color: #fff;  
+    font-size: 20px;
+    text-align: center;    
+    
+    
+}
+
+
+/* la imagen no se ajusta automatica en el respo*/
+.img-misproduc {
+   
+    max-width: 40%; 
+    margin: 0;      
+
+}
